@@ -1,0 +1,274 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header> h1  > a:link{
+    text-decoration: none;
+
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav, header {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    max-width: 1700px;
+
+ 
+    display: block; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to next row */
+    justify-content: space-between; /* Add space between columns */
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the width of its container */
+    box-sizing: content-box;
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add some padding for content */
+
+}
+
+section {
+    flex: 0 0 calc(50% - 10px); /* Adjust width for two columns with margin */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+   height: 700px;
+    overflow-y: auto; /* Add vertical scroll */
+    max-height: 100%; /* Set maximum height */
+    /* Hide scrollbar for WebKit-based browsers */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+
+
+
+
+section h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+section p {
+    color: #666;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 100%; /* Make sure images don't exceed their container's width */
+    height: auto;
+    width: 80%; /* Set image width to 100% of its container */
+    display: block; /* Ensure images don't have any default space underneath */
+}
+
+section .charImgResize{
+
+    width: 40%;
+}
+
+
+
+
+/* aside {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+} */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+
+
+/**
+tables and scroll
+*/
+
+
+
+.table-container::-webkit-scrollbar {
+    display: none; /* WebKit-based (Chrome, Safari) */
+}
+table {
+    flex:content;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+td {
+
+    height: 10px;
+}
+
+
+ul li {
+    text-align: left;
+}
+
+
+.resizeImg {
+    width: 100%;
+ 
+}
+
+
+
+
+
+.scrollable-content {
+    max-height: 100px; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+}
+    
+table tr td.addScrolls {
+
+  /* Adjust the maximum height as needed */
+    /* Add other necessary styles */
+}
+/*
+to create own box
+*/
+
+aside {
+    background-color: #fff;
+    border: 1px solid #0f0101;
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    width: 45%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    
+}
+
+p a {
+   
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style:bold;
+        color: #0e3257;
+       text-decoration: none;
+       
+}
+
+a:hover {
+    color: white;
+
+}
+
+aside h2 {
+    font-size: 1.2rem; /* Heading font size */
+    color: #333; /* Heading color */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+aside p {
+    color: #666; /* Paragraph color */
+    margin-bottom: 15px; /* Bottom margin */
+}
+
+aside ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+aside li {
+    margin-bottom: 10px; /* Bottom margin for list items */
+}
+
+aside a {
+    text-decoration: none; /* Remove underline */
+    color: #0066cc; /* Link color */
+}
+
+aside a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+
+/*
+
+this was display by default in a web browser
+
+*/
+#shadow-host-companion {
+
+    display: none;
+}
+
+
+
+
+
+/*
+
+image hover over a table 
+*/
+
+
+
+
+/*
+IMAGES FOR ALL PAGES
+*/
+
+
+.background {
+
+}
+
